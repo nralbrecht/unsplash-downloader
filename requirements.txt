@@ -1,0 +1,4 @@
+# minimalist requirements
+-i https://pypi.org/simple
+pyjson5
+requests

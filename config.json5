@@ -1,0 +1,37 @@
+{
+    "downloader": {
+        "wallpaper_directory": "./images/",
+        "log_directory": "./logs/",
+
+        // get from https://unsplash.com/oauth/applications
+        "unsplash_app_access_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+
+        "max_per_page": 30,
+
+        // low, high
+        "content_filter": "low",
+
+        // landscape, portrait, squarish
+        "orientation": "landscape",
+
+        // latest, relevant
+        "order_by": "relevant",
+    },
+    "querys": [
+        {
+            "type": "search",
+            "query": "sunset mountain",
+            "page_count": 50,
+        },
+        // {
+        //     "type": "collection",
+        //     "collection_id": "3178989", // nralbrecht - New Tab
+        //     "page_count": 50,
+        // },
+        // {
+        //     "type": "collection",
+        //     "collection_id": "CWi_vYGTZU4", // nralbrecht - Dark
+        //     "page_count": 145,
+        // },
+    ]
+}
