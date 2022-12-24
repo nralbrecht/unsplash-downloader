@@ -169,15 +169,6 @@ class UnsplashDownloader():
             if error:
                 print(error)
 
-        # for filename in os.listdir(self.config["wallpaper_directory"]):
-        #     os.unlink(os.path.join(self.config["wallpaper_directory"], filename))
-
-        # print("downloading a total of {} images".format(self.download_queue))
-
-        # for i, image in enumerate(self.download_queue):
-        #     print("#{} downloading wallpaper {}, {}".format(i, image.id, image.website))
-        #     image.download(self.config["wallpaper_directory"])
-
 
 if __name__ == "__main__":
     with open("./config.json5") as f:
